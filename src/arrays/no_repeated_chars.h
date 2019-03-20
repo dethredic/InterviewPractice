@@ -1,3 +1,5 @@
+#pragma once
+
 #include <stdbool.h>
 
 //! No additional data structures used so O(n^2). Fine for most practical use cases

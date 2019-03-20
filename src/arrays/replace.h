@@ -1,3 +1,5 @@
+#pragma once
+
 #include <string.h>
 
 //! Replace all spaces with %20 in place
