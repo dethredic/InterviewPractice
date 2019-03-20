@@ -3,7 +3,7 @@ TEST_DIR=tests
 BUILD_DIR=build
 
 CC=gcc
-CFLAGS=-Wall -Wextra -Werror -I$(TEST_DIR) -I$(SRC_DIR)/arrays
+CFLAGS=-Wall -Wextra -Werror -I$(TEST_DIR) -I$(SRC_DIR)/arrays -I$(SRC_DIR)/lists
 
 TEST_SRCS=$(wildcard $(TEST_DIR)/*/*.c)
 EXES=$(subst test_,,$(subst $(TEST_DIR)/,,$(subst .c,,$(TEST_SRCS))))
