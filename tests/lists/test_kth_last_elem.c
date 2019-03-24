@@ -36,7 +36,7 @@ int main() {
   ListNode *e = get_kth_last_emem(&a, 2);
 
   if (e != NULL) {
-    printf("%d\n", e->data);
+    // printf("%d\n", e->data);
   } else {
     printf("NULL\n");
   }
